@@ -1,9 +1,21 @@
 <html>
 <head>
+  <link href="style.css" rel="stylesheet" />
+  <link href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
 
 </head>
 <body>
-<button id="player" onclick="play()"> play song</button>
+
+<img id="logo" src="logo.jpg"  />
+<button id="player" onclick="play()"> play test button</button>
+<div id="choices">
+  <button id="SongTitle1" onclick="pickanswer(1)" class="btn btn-primary btn-lg raised"> SongTitle1 </button>
+  <button id="SongTitle2" onclick="pickanswer(2)" class="btn btn-primary btn-lg raised"> SongTitle2 </button>
+  <button id="SongTitle3" onclick="pickanswer(3)" class="btn btn-primary btn-lg raised"> SongTitle3 </button>
+  <button id="SongTitle4" onclick="pickanswer(4)" class="btn btn-primary btn-lg raised"> SongTitle4 </button>
+</div>
+
+
 <!-- <audio controls id="player">
     <source src="../music/nights.mp3" type="audio/mpeg" />
 </audio> -->

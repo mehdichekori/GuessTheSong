@@ -20,3 +20,6 @@ var play = function(){
                 1000);
         }, false);
 }
+var pickanswer = function(n){
+        console.log("the user has chosen the title #"+n)
+}
